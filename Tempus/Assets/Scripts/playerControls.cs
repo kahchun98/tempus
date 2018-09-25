@@ -24,7 +24,6 @@ public class playerControls : MonoBehaviour {
     }
     // Update is called once per frame
     void Update () {
-        RaycastHit RayHit;
         if (controller.isGrounded)
         {
             moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical"));
