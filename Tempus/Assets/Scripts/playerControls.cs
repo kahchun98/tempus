@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class playerControls : MonoBehaviour {
 
-    public float maxSpeed = 3;
-    public int jumpForce = 100;
-    public float gravity = 20.0f;
-    public int collisionDis = 1;
+    public float maxSpeed;
+    public int jumpForce;
+    public float gravity;
+    public int collisionDis;
 
     private Vector3 moveDirection = Vector3.zero;
     private CharacterController controller;
