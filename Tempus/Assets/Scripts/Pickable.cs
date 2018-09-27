@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Pickable : MonoBehaviour {
     public string text;
+    public GameObject onHandGun;
     public float pickDistance = 3.0f;
 
     private bool displayText = false;
@@ -24,6 +25,7 @@ public class Pickable : MonoBehaviour {
                 if (Input.GetButtonDown("Interact"))
                 {
                     Destroy(hit.collider.gameObject);
+                    onHandGun.SetActive(true);
                 }
             }
         }
