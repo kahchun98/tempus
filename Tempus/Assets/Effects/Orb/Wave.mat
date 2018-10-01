@@ -7,12 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Wave
-  m_Shader: {fileID: 4800000, guid: e1cbb19759c85a646bb6d917ff2f8319, type: 3}
+  m_Shader: {fileID: 4800000, guid: 01f8704ad4a79ab4a83d56f6d499edfc, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:

@@ -31,6 +31,7 @@ public class Shootable : MonoBehaviour {
                 GameObject projectile = Instantiate(playerProjectile,tip.transform.position,Quaternion.identity);
               //  projectile.transform.position = transform.position;
                 projectile.GetComponent<Projectile>().direction = (hit.point - projectile.transform.position).normalized;
+                projectile.GetComponent<Projectile>().hitPoint = hit.point;
             }
         }
     }
